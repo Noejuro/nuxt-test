@@ -49,29 +49,29 @@ export default {
     
   ],
 
-  // gtm: {
-  //   id: 'GTM-5VJSJ9G',
-  //   enabled: true, /* see below */
-  //   debug: true,
+  gtm: {
+    id: 'GTM-5VJSJ9G',
+    enabled: true, /* see below */
+    debug: true,
 
-  //   layer: 'dataLayer',
-  //   variables: {},
+    layer: 'dataLayer',
+    variables: {},
 
-  //   pageTracking: false,
-  //   pageViewEventName: 'nuxtRoute',
+    pageTracking: false,
+    pageViewEventName: 'nuxtRoute',
 
-  //   autoInit: true,
-  //   respectDoNotTrack: true,
+    autoInit: true,
+    respectDoNotTrack: true,
 
-  //   scriptId: 'gtm-script',
-  //   scriptDefer: false,
-  //   scriptURL: 'https://www.googletagmanager.com/gtm.js',
-  //   crossOrigin: false,
+    scriptId: 'gtm-script',
+    scriptDefer: false,
+    scriptURL: 'https://www.googletagmanager.com/gtm.js',
+    crossOrigin: false,
 
-  //   noscript: true,
-  //   noscriptId: 'gtm-noscript',
-  //   noscriptURL: 'https://www.googletagmanager.com/ns.html'
-  // },
+    noscript: true,
+    noscriptId: 'gtm-noscript',
+    noscriptURL: 'https://www.googletagmanager.com/ns.html'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

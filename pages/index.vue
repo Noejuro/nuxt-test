@@ -58,6 +58,27 @@ export default {
 		],
     }
   },
+  head: {
+        title: '>Bebbia.com ❱ Conoce el Servicio de Purificación de Agua',
+        meta: [
+            { property: 'og:locale', content: 'es_MX' },
+            { property: 'og:title', content: 'Bebbia.com ❱ Conoce el Servicio de Purificación de Agua' },
+            { name: 'description', content: 'Tener agua purificada en casa nunca fue tan sencillo. Conoce el servicio de purificación de agua de Bebbia.com. Incluye Purificador de agua y Mantenimiento.' },
+            // Google / Search Engine Tags
+            { itemprop: 'name', content: 'Bebbia.com ❱ Conoce el Servicio de Purificación de Agua' },
+            { itemprop: 'description', content: 'Tener agua purificada en casa nunca fue tan sencillo. Conoce el servicio de purificación de agua de Bebbia.com. Incluye Purificador de agua y Mantenimiento.' },
+            { itemprop: 'image', content: 'http://bebbia.com/wp-content/uploads/2020/03/open-graph-facebook-bebbia.jpg' },
+            // Facebook Meta Tags
+            { property: 'og:title', content: 'Bebbia.com ❱ Conoce el Servicio de Purificación de Agua' },
+            { property: 'og:description', content: 'Tener agua purificada en casa nunca fue tan sencillo. Conoce el servicio de purificación de agua de Bebbia.com. Incluye Purificador de agua y Mantenimiento.' },
+            { property: 'og:image', content: 'https://bebbia.com/wp-content/uploads/2020/03/open-graph-facebook-bebbia.jpg' },
+            // Twitter Meta Tags
+            { name: 'twitter:card', content: 'summary_large_image' },
+            { name: 'twitter:title', content: 'Bebbia.com ❱ Conoce el Servicio de Purificación de Agua' },
+            { name: 'twitter:description', content: 'Tener agua purificada en casa nunca fue tan sencillo. Conoce el servicio de purificación de agua de Bebbia.com. Incluye Purificador de agua y Mantenimiento.' },
+            { name: 'twitter:image', content: 'https://bebbia.com/wp-content/uploads/2020/03/open-graph-facebook-bebbia.jpg' },
+        ]
+    },
   methods: {
 	  async onSubmit() {
 		try {
