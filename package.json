@@ -1,0 +1,19 @@
+{
+  "name": "my-first-nuxt-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/gtm": "^2.4.0",
+    "@nuxtjs/recaptcha": "^1.0.4",
+    "@nuxtjs/vuetify": "^1.11.3",
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {}
+}
